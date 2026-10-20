@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#09090b" />
+      <stop offset="100%" stop-color="#18181b" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#25F4EE" />
+      <stop offset="50%" stop-color="#FE2C55" />
+      <stop offset="100%" stop-color="#7B2CBF" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+  <rect width="504" height="504" x="4" y="4" rx="108" fill="none" stroke="#27272a" stroke-width="3" />
+
+  <!-- 9:16 Vertical Phone Outline Frame in Center -->
+  <rect x="176" y="80" width="160" height="284" rx="28" fill="#18181b" stroke="#3f3f46" stroke-width="6" />
+  
+  <!-- Screen Inside 9:16 with gradient -->
+  <rect x="186" y="92" width="140" height="258" rx="20" fill="#09090b" />
+
+  <!-- TikTok Studio Stylized Wave / Music Note in 9:16 screen -->
+  <path d="M268 150 C268 180, 296 200, 314 204 L314 228 C294 226, 276 216, 268 206 L268 274 C268 308, 242 328, 216 328 C188 328, 168 306, 168 278 C168 248, 192 226, 224 226 C232 226, 240 228, 246 230 L246 256 C240 252, 234 250, 226 250 C210 250, 196 262, 196 278 C196 294, 208 304, 224 304 C244 304, 250 288, 250 274 L250 150 Z" 
+        fill="url(#accentGrad)" 
+        filter="url(#glow)" />
+
+  <!-- Studio Adjustment Sliders / Badges at bottom -->
+  <rect x="136" y="394" width="240" height="8" rx="4" fill="#27272a" />
+  <circle cx="216" cy="398" r="9" fill="#25F4EE" />
+  
+  <rect x="136" y="422" width="240" height="8" rx="4" fill="#27272a" />
+  <circle cx="296" cy="426" r="9" fill="#FE2C55" />
+
+  <!-- 9:16 Badge Tag -->
+  <rect x="220" y="324" width="72" height="24" rx="6" fill="#FE2C55" />
+  <text x="256" y="340" fill="#ffffff" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="bold" text-anchor="middle">9:16</text>
+</svg>

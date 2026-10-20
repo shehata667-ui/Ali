@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">TikTok Video Studio</string>
+    <string name="title_activity_main">TikTok Video Studio</string>
+    <string name="package_name">com.tiktokstudio.videoeditor</string>
+    <string name="custom_url_scheme">com.tiktokstudio.videoeditor</string>
+</resources>

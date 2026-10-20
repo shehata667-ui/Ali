@@ -1,0 +1,6 @@
+{
+  "name": "TikTok Video Studio",
+  "description": "تطبيق متكامل لمعالجة وضغط وتجهيز الفيديوهات لمقاس تيك توك 9:16 مع تحويل الإطارات الثابتة وإضافة العلامات المائية وفحص الجودة.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
